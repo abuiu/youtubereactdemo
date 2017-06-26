@@ -8,7 +8,6 @@ import SearchBar from './components/search-bar';
 import VideoList from './components/video-list';
 import VideoDetail from './components/video-detail';
 
-const API_KEY = 'AIzaSyBqN2nUDorXPP1kCAKqsp-ILgx55xBBRyM';
 
 //Create the component. Produces HTML
 
@@ -22,7 +21,7 @@ class App extends Component {
             selectedVideo: null
         };
 
-        this.videoSearch('snowboard');
+        this.videoSearch('crossfit');
     }
 
     videoSearch(term) {
